@@ -70,7 +70,7 @@ class _WaterViewState extends State<WaterView> with TickerProviderStateMixin {
                                       padding: const EdgeInsets.only(
                                           left: 4, bottom: 3),
                                       child: Text(
-                                        '2100',
+                                        'Approved',
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
                                           fontFamily: FitnessAppTheme.fontName,
@@ -80,28 +80,28 @@ class _WaterViewState extends State<WaterView> with TickerProviderStateMixin {
                                         ),
                                       ),
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(
-                                          left: 8, bottom: 8),
-                                      child: Text(
-                                        'ml',
-                                        textAlign: TextAlign.center,
-                                        style: TextStyle(
-                                          fontFamily: FitnessAppTheme.fontName,
-                                          fontWeight: FontWeight.w500,
-                                          fontSize: 18,
-                                          letterSpacing: -0.2,
-                                          color: FitnessAppTheme.nearlyDarkBlue,
-                                        ),
-                                      ),
-                                    ),
+                                    // Padding(
+                                    //   padding: const EdgeInsets.only(
+                                    //       left: 8, bottom: 8),
+                                    //   child: Text(
+                                    //     'ml',
+                                    //     textAlign: TextAlign.center,
+                                    //     style: TextStyle(
+                                    //       fontFamily: FitnessAppTheme.fontName,
+                                    //       fontWeight: FontWeight.w500,
+                                    //       fontSize: 18,
+                                    //       letterSpacing: -0.2,
+                                    //       color: FitnessAppTheme.nearlyDarkBlue,
+                                    //     ),
+                                    //   ),
+                                    // ),
                                   ],
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.only(
                                       left: 4, top: 2, bottom: 14),
                                   child: Text(
-                                    'of daily goal 3.5L',
+                                    'Cash request',
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                       fontFamily: FitnessAppTheme.fontName,
@@ -150,7 +150,7 @@ class _WaterViewState extends State<WaterView> with TickerProviderStateMixin {
                                         padding:
                                             const EdgeInsets.only(left: 4.0),
                                         child: Text(
-                                          'Last drink 8:26 AM',
+                                          'Decision time 8:26 AM',
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                             fontFamily:
@@ -181,7 +181,7 @@ class _WaterViewState extends State<WaterView> with TickerProviderStateMixin {
                                         ),
                                         Flexible(
                                           child: Text(
-                                            'Your bottle is empty, refill it!.',
+                                            'Your request has been Approved.',
                                             textAlign: TextAlign.start,
                                             style: TextStyle(
                                               fontFamily:
@@ -189,7 +189,7 @@ class _WaterViewState extends State<WaterView> with TickerProviderStateMixin {
                                               fontWeight: FontWeight.w500,
                                               fontSize: 12,
                                               letterSpacing: 0.0,
-                                              color: HexColor('#F65283'),
+                                              color: HexColor('#09952c'),
                                             ),
                                           ),
                                         ),

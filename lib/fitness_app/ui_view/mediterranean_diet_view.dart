@@ -1,7 +1,8 @@
-import 'package:best_flutter_ui_templates/fitness_app/fitness_app_theme.dart';
-import 'package:best_flutter_ui_templates/main.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
+
+import '../../main.dart';
+import '../fitness_app_theme.dart';
 
 class MediterranesnDietView extends StatelessWidget {
   final AnimationController? animationController;
@@ -76,7 +77,7 @@ class MediterranesnDietView extends StatelessWidget {
                                               padding: const EdgeInsets.only(
                                                   left: 4, bottom: 2),
                                               child: Text(
-                                                'Eaten',
+                                                'Emp ID',
                                                 textAlign: TextAlign.center,
                                                 style: TextStyle(
                                                   fontFamily:
@@ -120,27 +121,27 @@ class MediterranesnDietView extends StatelessWidget {
                                                     ),
                                                   ),
                                                 ),
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.only(
-                                                          left: 4, bottom: 3),
-                                                  child: Text(
-                                                    'Kcal',
-                                                    textAlign: TextAlign.center,
-                                                    style: TextStyle(
-                                                      fontFamily:
-                                                          FitnessAppTheme
-                                                              .fontName,
-                                                      fontWeight:
-                                                          FontWeight.w600,
-                                                      fontSize: 12,
-                                                      letterSpacing: -0.2,
-                                                      color: FitnessAppTheme
-                                                          .grey
-                                                          .withOpacity(0.5),
-                                                    ),
-                                                  ),
-                                                ),
+                                                // Padding(
+                                                //   padding:
+                                                //       const EdgeInsets.only(
+                                                //           left: 4, bottom: 3),
+                                                //   child: Text(
+                                                //     'Kcal',
+                                                //     textAlign: TextAlign.center,
+                                                //     style: TextStyle(
+                                                //       fontFamily:
+                                                //           FitnessAppTheme
+                                                //               .fontName,
+                                                //       fontWeight:
+                                                //           FontWeight.w600,
+                                                //       fontSize: 12,
+                                                //       letterSpacing: -0.2,
+                                                //       color: FitnessAppTheme
+                                                //           .grey
+                                                //           .withOpacity(0.5),
+                                                //     ),
+                                                //   ),
+                                                // ),
                                               ],
                                             )
                                           ],
@@ -175,7 +176,7 @@ class MediterranesnDietView extends StatelessWidget {
                                               padding: const EdgeInsets.only(
                                                   left: 4, bottom: 2),
                                               child: Text(
-                                                'Burned',
+                                                'Position',
                                                 textAlign: TextAlign.center,
                                                 style: TextStyle(
                                                   fontFamily:
@@ -205,7 +206,7 @@ class MediterranesnDietView extends StatelessWidget {
                                                       const EdgeInsets.only(
                                                           left: 4, bottom: 3),
                                                   child: Text(
-                                                    '${(102 * animation!.value).toInt()}',
+                                                    'HR Manager',
                                                     textAlign: TextAlign.center,
                                                     style: TextStyle(
                                                       fontFamily:
@@ -219,27 +220,27 @@ class MediterranesnDietView extends StatelessWidget {
                                                     ),
                                                   ),
                                                 ),
-                                                Padding(
-                                                  padding:
-                                                      const EdgeInsets.only(
-                                                          left: 8, bottom: 3),
-                                                  child: Text(
-                                                    'Kcal',
-                                                    textAlign: TextAlign.center,
-                                                    style: TextStyle(
-                                                      fontFamily:
-                                                          FitnessAppTheme
-                                                              .fontName,
-                                                      fontWeight:
-                                                          FontWeight.w600,
-                                                      fontSize: 12,
-                                                      letterSpacing: -0.2,
-                                                      color: FitnessAppTheme
-                                                          .grey
-                                                          .withOpacity(0.5),
-                                                    ),
-                                                  ),
-                                                ),
+                                                // Padding(
+                                                //   padding:
+                                                //       const EdgeInsets.only(
+                                                //           left: 8, bottom: 3),
+                                                //   child: Text(
+                                                //     'Kcal',
+                                                //     textAlign: TextAlign.center,
+                                                //     style: TextStyle(
+                                                //       fontFamily:
+                                                //           FitnessAppTheme
+                                                //               .fontName,
+                                                //       fontWeight:
+                                                //           FontWeight.w600,
+                                                //       fontSize: 12,
+                                                //       letterSpacing: -0.2,
+                                                //       color: FitnessAppTheme
+                                                //           .grey
+                                                //           .withOpacity(0.5),
+                                                //     ),
+                                                //   ),
+                                                // ),
                                               ],
                                             )
                                           ],
@@ -293,7 +294,7 @@ class MediterranesnDietView extends StatelessWidget {
                                             ),
                                           ),
                                           Text(
-                                            'Kcal left',
+                                            'Point',
                                             textAlign: TextAlign.center,
                                             style: TextStyle(
                                               fontFamily:
@@ -356,7 +357,7 @@ class MediterranesnDietView extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text(
-                                  'Carbs',
+                                  'Total',
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     fontFamily: FitnessAppTheme.fontName,
@@ -399,7 +400,7 @@ class MediterranesnDietView extends StatelessWidget {
                                 Padding(
                                   padding: const EdgeInsets.only(top: 6),
                                   child: Text(
-                                    '12g left',
+                                    '30 Day',
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                       fontFamily: FitnessAppTheme.fontName,
@@ -423,7 +424,7 @@ class MediterranesnDietView extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
                                     Text(
-                                      'Protein',
+                                      'Presents',
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
                                         fontFamily: FitnessAppTheme.fontName,
@@ -468,7 +469,7 @@ class MediterranesnDietView extends StatelessWidget {
                                     Padding(
                                       padding: const EdgeInsets.only(top: 6),
                                       child: Text(
-                                        '30g left',
+                                        '20 Day',
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
                                           fontFamily: FitnessAppTheme.fontName,
@@ -494,7 +495,7 @@ class MediterranesnDietView extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
                                     Text(
-                                      'Fat',
+                                      'Absents',
                                       style: TextStyle(
                                         fontFamily: FitnessAppTheme.fontName,
                                         fontWeight: FontWeight.w500,
@@ -539,7 +540,7 @@ class MediterranesnDietView extends StatelessWidget {
                                     Padding(
                                       padding: const EdgeInsets.only(top: 6),
                                       child: Text(
-                                        '10g left',
+                                        '10 Day',
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
                                           fontFamily: FitnessAppTheme.fontName,

@@ -1,6 +1,6 @@
-import 'package:best_flutter_ui_templates/main.dart';
 import 'package:flutter/material.dart';
 
+import '../../main.dart';
 import '../fitness_app_theme.dart';
 
 class GlassView extends StatelessWidget {
@@ -44,26 +44,26 @@ class GlassView extends StatelessWidget {
                             //       blurRadius: 10.0),
                             // ],
                           ),
-                          child: Column(
-                            children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.only(
-                                    left: 68, bottom: 12, right: 16, top: 12),
-                                child: Text(
-                                  'Prepare your stomach for lunch with one or two glass of water',
-                                  textAlign: TextAlign.left,
-                                  style: TextStyle(
-                                    fontFamily: FitnessAppTheme.fontName,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 14,
-                                    letterSpacing: 0.0,
-                                    color: FitnessAppTheme.nearlyDarkBlue
-                                        .withOpacity(0.6),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
+                          // child: Column(
+                          //   children: <Widget>[
+                          //     Padding(
+                          //       padding: const EdgeInsets.only(
+                          //           left: 68, bottom: 12, right: 16, top: 12),
+                          //       child: Text(
+                          //         'Prepare your stomach for lunch with one or two glass of water',
+                          //         textAlign: TextAlign.left,
+                          //         style: TextStyle(
+                          //           fontFamily: FitnessAppTheme.fontName,
+                          //           fontWeight: FontWeight.w500,
+                          //           fontSize: 14,
+                          //           letterSpacing: 0.0,
+                          //           color: FitnessAppTheme.nearlyDarkBlue
+                          //               .withOpacity(0.6),
+                          //         ),
+                          //       ),
+                          //     ),
+                          //   ],
+                          // ),
                         ),
                       ),
                       Positioned(
